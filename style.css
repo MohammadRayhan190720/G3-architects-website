@@ -1,6 +1,11 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root{
+  --dark01:#131313;
+  --dark02:#424242;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -11,5 +16,40 @@
 body{
   font-family: "Work Sans", sans-serif;
   font-style: normal;
+  max-width: 1920px;
+  border: 1px solid red;
 
+}
+/* header section */
+header{
+  max-width: 1920px;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+#header-container{
+  max-width: 1440px;
+  height: 1322px;
+  margin: 0 auto;
+  border: 1px solid green;
+  padding-top: 40px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid green;
+  align-items: center;
+}
+.brand{
+  font-weight: bold;
+  font-size: 45px;
+  color: var(--dark01);
+}
+.nav-items{
+  display: flex;
+  gap: 20px;
+  border: 1px solid red;
+}
+.nav-link{
+  font-size: 18px;
+  font-weight: 500;
+  color:var(--dark02) ;
 }
