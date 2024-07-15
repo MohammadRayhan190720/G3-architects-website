@@ -44,6 +44,31 @@ height: auto;}
 .some-facts__title{
   margin-left: 20px;
 }
+/* sponspors section */
+.sponspors-media{
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+}
+.sponspors-section__content{
+  text-align:left;
+}
+/* footer */
+#footer-container{
+  width: calc( 100% -20px );
+  margin: 10px;
+}
+.footer-descreption{
+  padding: 20px;
+}
+
  
+  
+}
+
+/* tablet and pad divices responsive */
+@media screen and (min-width: 577px) and (max-width:992px){
+  
   
 }
